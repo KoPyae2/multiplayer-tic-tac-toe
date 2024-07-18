@@ -1,0 +1,47 @@
+/* src/App.css */
+
+body {
+  background: rgb(253, 239, 241);
+  background: linear-gradient(180deg, rgba(253, 239, 241, 1) 0%, rgba(253, 223, 232, 1) 100%);
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+}
+
+.cell {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+}
+
+.custom-input {}
+
+.btn-gradient {
+  background: rgb(242, 44, 85);
+  background: linear-gradient(0deg, rgba(242, 44, 85, 1) 0%, rgba(248, 84, 119, 1) 100%);
+}
+
+.yellow-gradient {
+  background: rgb(246, 169, 31);
+  background: linear-gradient(0deg, rgba(246, 169, 31, 1) 0%, rgba(248, 209, 78, 1) 100%);
+  font-weight: bold;
+}
+
+.grid-box {
+  border: 2px dashed #F54F71;
+  background: #fff;
+  padding: 4px;
+}
+
+.text-shadow{
+  text-shadow: 1px 2px 2px rgba(0,0,0,0.5);;
+}
+
+.popup-shadow{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
